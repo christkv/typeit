@@ -1,0 +1,18 @@
+declare module "{{{module}}}" {
+  
+  {{#interfaces}}
+    inteface {{{name}}} {
+    }
+
+  {{/interfaces}}
+  {{#classes}}
+    export class {{{class}}} {    
+      constructor ({{{constructor_joined}}});
+
+      {{#methods}}
+      {{{visibility}}} {{{name}}}({{{params_joined}}}) : {{{return}}}
+      {{/methods}}
+    }
+
+  {{/classes}}
+}

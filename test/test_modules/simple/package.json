@@ -1,7 +1,7 @@
 {
-  "name": "typeit",
+  "name": "somemodule",
   "version": "0.0.0",
-  "description": "typeit ======",
+  "description": "Module description",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,13 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/christkv/typeit.git"
-  },
-  "dependencies": {
-    "dox": "latest",
-    "mustache": "latest"
-  },
-  "devDependencies": {
-    "nodeunit": "latest"
   },
   "author": "",
   "license": "BSD"
